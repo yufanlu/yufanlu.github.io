@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yufan Lu</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yufanlu.net/"/>
+  <updated>2017-05-17T20:13:06.000Z</updated>
+  <id>http://yufanlu.net/</id>
+  
+  <author>
+    <name>Yufan Lu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yufanlu.net/2017/05/17/Hello-World/"/>
+    <id>http://yufanlu.net/2017/05/17/Hello-World/</id>
+    <published>2017-05-17T20:13:06.000Z</published>
+    <updated>2017-05-17T20:13:06.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
