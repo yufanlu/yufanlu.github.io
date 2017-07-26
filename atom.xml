@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yufanlu.net/"/>
-  <updated>2017-07-26T04:40:39.000Z</updated>
+  <updated>2017-07-26T06:16:11.000Z</updated>
   <id>http://yufanlu.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yufanlu.net/2016/07/13/easy-vim-setup/"/>
     <id>http://yufanlu.net/2016/07/13/easy-vim-setup/</id>
     <published>2016-07-13T04:21:25.000Z</published>
-    <updated>2017-07-26T04:40:39.000Z</updated>
+    <updated>2017-07-26T06:16:11.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Vim-Installation"><a href="#Vim-Installation" class="headerlink" title="Vim Installation"></a>Vim Installation</h3><p>Mac OS come with a vim, which might not be the latest version. Using <a href="http://brew.sh" target="_blank" rel="external">Homebrew</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, latest version of vim can be obtained by running</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install vim</div></pre></td></tr></table></figure>
@@ -58,7 +58,7 @@
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:<span class="keyword">set</span> nocompatible</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>In most cases, we put configurations of vim in a file named <code>.vimrc</code> (<code>_vimrc</code> on Windows) and vim will execute commands in it when it starts. The file is located at</p>
+<p>In most cases, we put configurations of vim in a file named <code>.vimrc</code> (<code>_vimrc</code> on Windows) and vim will execute commands in the configuration file when it starts. The file is located at</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Mac/Linux: ~/.vimrc</div><div class="line">Windows:   $HOME/_vimrc</div></pre></td></tr></table></figure>
 <p>And we can put the following lines in the <code>.vimrc</code> file:</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">set</span> nocompatible</div><div class="line"><span class="keyword">syntax</span> <span class="keyword">on</span></div><div class="line"><span class="keyword">set</span> <span class="keyword">number</span></div><div class="line"><span class="keyword">set</span> relativenumber</div><div class="line"></div><div class="line"><span class="comment">" settings you can try</span></div><div class="line"><span class="keyword">set</span> wrap        <span class="comment">" wrap lines longer than the width of the window</span></div><div class="line"><span class="keyword">set</span> ruler       <span class="comment">" show line and column number of the cursor position</span></div></pre></td></tr></table></figure>
@@ -71,7 +71,7 @@
 <li><a href="https://danielmiessler.com/study/vim" target="_blank" rel="external">A vim Tutorial and Primer</a></li>
 <li><a href="https://benmccormick.org/learning-vim-in-2014/" target="_blank" rel="external">Learning Vim in 2014</a></li>
 </ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">Homebrew is a missing package manager for macOS</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">Homebrew is a package manager for macOS</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
     
     <summary type="html">
     
