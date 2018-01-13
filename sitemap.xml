@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yufanlu.net/about/index.html</loc>
+    
+    <lastmod>2018-01-13T15:52:02.348Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yufanlu.net/2016/10/30/ultisnips/</loc>
     
     <lastmod>2017-08-09T20:20:47.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yufanlu.net/2016/07/13/easy-vim-setup/</loc>
     
     <lastmod>2017-08-09T20:15:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yufanlu.net/about/index.html</loc>
-    
-    <lastmod>2017-07-25T04:54:40.000Z</lastmod>
     
   </url>
   
