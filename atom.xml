@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yufanlu.net/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2017-08-09T20:20:47.000Z</updated>
-  <id>http://yufanlu.net/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Yufan Lu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Productivity Booster: Ultisnips</title>
-    <link href="http://yufanlu.net/2016/10/30/ultisnips/"/>
-    <id>http://yufanlu.net/2016/10/30/ultisnips/</id>
+    <link href="http://yoursite.com/2016/10/30/ultisnips/"/>
+    <id>http://yoursite.com/2016/10/30/ultisnips/</id>
     <published>2016-10-30T15:43:00.000Z</published>
     <updated>2017-08-09T20:20:47.000Z</updated>
     
@@ -38,21 +38,21 @@
     
     </summary>
     
-      <category term="vim" scheme="http://yufanlu.net/categories/vim/"/>
+      <category term="vim" scheme="http://yoursite.com/categories/vim/"/>
     
     
-      <category term="vim" scheme="http://yufanlu.net/tags/vim/"/>
+      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
     
-      <category term="vimrc" scheme="http://yufanlu.net/tags/vimrc/"/>
+      <category term="vimrc" scheme="http://yoursite.com/tags/vimrc/"/>
     
-      <category term="ultisnips" scheme="http://yufanlu.net/tags/ultisnips/"/>
+      <category term="ultisnips" scheme="http://yoursite.com/tags/ultisnips/"/>
     
   </entry>
   
   <entry>
     <title>Easy Vim Setup</title>
-    <link href="http://yufanlu.net/2016/07/13/easy-vim-setup/"/>
-    <id>http://yufanlu.net/2016/07/13/easy-vim-setup/</id>
+    <link href="http://yoursite.com/2016/07/13/easy-vim-setup/"/>
+    <id>http://yoursite.com/2016/07/13/easy-vim-setup/</id>
     <published>2016-07-13T04:21:25.000Z</published>
     <updated>2018-02-10T18:58:07.204Z</updated>
     
@@ -67,14 +67,14 @@
     
     </summary>
     
-      <category term="vim" scheme="http://yufanlu.net/categories/vim/"/>
+      <category term="vim" scheme="http://yoursite.com/categories/vim/"/>
     
     
-      <category term="vim" scheme="http://yufanlu.net/tags/vim/"/>
+      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
     
-      <category term="vim-setup" scheme="http://yufanlu.net/tags/vim-setup/"/>
+      <category term="vim-setup" scheme="http://yoursite.com/tags/vim-setup/"/>
     
-      <category term="vimrc" scheme="http://yufanlu.net/tags/vimrc/"/>
+      <category term="vimrc" scheme="http://yoursite.com/tags/vimrc/"/>
     
   </entry>
   
