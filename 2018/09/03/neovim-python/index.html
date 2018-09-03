@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>Setup Neovim as Python IDE · Yufan Lu</title><meta name="description" content="Setup Neovim as Python IDE - Yufan Lu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yufanlu.net/atom.xml" title="Yufan Lu"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.ico" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">Blog</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">Archives</a></li><li class="nav-list-item"><a href="https://github.com/yufanlu" target="_blank" class="nav-list-link">GitHub</a></li><li class="nav-list-item"><a href="https://ca.linkedin.com/in/luyufan" target="_blank" class="nav-list-link">LinkedIn</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Setup Neovim as Python IDE</h1><div class="post-info">Aug 31, 2018</div><div class="post-content"><p>This will be a quick guide on how to setup neovim as your python IDE. It might invovle some concepts, but they shouldn’t block your setup as long as you follow these steps (hopefully).</p>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>Setup Neovim as Python IDE · Yufan Lu</title><meta name="description" content="Setup Neovim as Python IDE - Yufan Lu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yufanlu.net/atom.xml" title="Yufan Lu"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.ico" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">Blog</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">Archives</a></li><li class="nav-list-item"><a href="https://github.com/yufanlu" target="_blank" class="nav-list-link">GitHub</a></li><li class="nav-list-item"><a href="https://ca.linkedin.com/in/luyufan" target="_blank" class="nav-list-link">LinkedIn</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Setup Neovim as Python IDE</h1><div class="post-info">Sep 3, 2018</div><div class="post-content"><p>This will be a quick guide on how to setup neovim as your python IDE. It might invovle some concepts, but they shouldn’t block your setup as long as you follow these steps (hopefully).</p>
 <p>Here are the tools/software that we need:</p>
 <ul>
 <li>neovim</li>
@@ -7,13 +7,13 @@
 </ul>
 <h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>You can install neovim according to the offical document <a href="https://github.com/neovim/neovim/wiki/Installing-Neovim" target="_blank" rel="noopener">here</a>. If you are using windows, you can always use the <a href="https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-download" target="_blank" rel="noopener">pre-built latest stable</a> release provided by the neovim team.</p>
 <p>I am using neovim v0.3.1 at the time of writing showing as following:</p>
-<img src="/2018/08/31/neovim-python/neovim.png">
+<img src="/2018/09/03/neovim-python/neovim.png">
 <a id="more"></a>
 <h2 id="Python3-and-Neovim-package"><a href="#Python3-and-Neovim-package" class="headerlink" title="Python3 and Neovim package"></a>Python3 and Neovim package</h2><p>You need to have python3 installed and also install <code>neovim</code> package using <code>pip</code></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install neovim</div></pre></td></tr></table></figure>
 <p>and then we can check if we have successfully configured python component for neovim by running the following command<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:echo has(&apos;python3&apos;)</div></pre></td></tr></table></figure></p>
 <p>and check if it outputs <code>1</code> like the following,</p>
-<img src="/2018/08/31/neovim-python/check-py3.gif">
+<img src="/2018/09/03/neovim-python/check-py3.gif">
 <h2 id="Plugin-Manager"><a href="#Plugin-Manager" class="headerlink" title="Plugin Manager"></a>Plugin Manager</h2><p>There are many neovim/vim plugin managers like <a href="https://github.com/Shougo/dein.vim" target="_blank" rel="noopener">dein.vim</a> and <a href="https://github.com/junegunn/vim-plug" target="_blank" rel="noopener">vim-plug</a>. Here I am showing vim-plug in the below figures. If you are using windows and don’t have PowerShell, then you can <a href="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" target="_blank" rel="noopener">download the plug.vim</a> (as suggested by the <a href="https://github.com/junegunn/vim-plug" target="_blank" rel="noopener">vim-plug document</a>) and put it at </p>
 <blockquote>
 <p><code>~\AppData\Local\nvim\autoload</code></p>
@@ -40,9 +40,9 @@
 <blockquote>
 <p><code>:PlugInstall</code></p>
 </blockquote>
-<img src="/2018/08/31/neovim-python/plugInstall.gif">
+<img src="/2018/09/03/neovim-python/plugInstall.gif">
 <p>Close neovim and reopen it again, then we have this</p>
-<img src="/2018/08/31/neovim-python/new-neovim.png">
+<img src="/2018/09/03/neovim-python/new-neovim.png">
 <h1 id="Python-autocompletion-and-code-lint-formatting"><a href="#Python-autocompletion-and-code-lint-formatting" class="headerlink" title="Python autocompletion and code lint/formatting"></a>Python autocompletion and code lint/formatting</h1><p>In order to have code completion, syntax checking, and code formatting, we need the following python packages</p>
 <ul>
 <li><code>jedi</code> for code completion: <code>pip install jedi</code></li>
@@ -52,10 +52,10 @@
 <p>Then, we have our python coding environment in our neovim. Suppose we have the following python code,</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> numpy.random <span class="keyword">import</span> normal</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">simple_function</span><span class="params">(a, b, c=<span class="number">0</span>)</span>:</span></div><div class="line">    d = a + b</div><div class="line">    print(a + b + c)</div></pre></td></tr></table></figure>
 <p>And neovim will display the following two errors/warnings:</p>
-<img src="/2018/08/31/neovim-python/error-1.png">
-<img src="/2018/08/31/neovim-python/error-2.png">
+<img src="/2018/09/03/neovim-python/error-1.png">
+<img src="/2018/09/03/neovim-python/error-2.png">
 <p>So let’s fix them… note that we also have the autocompletion too!</p>
-<img src="/2018/08/31/neovim-python/fix-1.gif">
+<img src="/2018/09/03/neovim-python/fix-1.gif">
 <p>Notice that we have another error/warning showing stating that</p>
 <blockquote>
 <p>E231: missing whitespace after ‘,’</p>
@@ -65,7 +65,7 @@
 <p><code>:Autoformat</code> or hit <code>&lt;F3&gt;</code> since we mapped it in our configuration file</p>
 </blockquote>
 <p>we will notice that the error E231 is resolved after code reformatting.s</p>
-<img src="/2018/08/31/neovim-python/fix-2.gif">
+<img src="/2018/09/03/neovim-python/fix-2.gif">
 <p>since code linting and formatting rely on separate python uilities (<code>flake8</code> and <code>autopep8</code>), which are isolated from our editor. So we can set the behavior of them such as</p>
 <ul>
 <li><a href="http://flake8.pycqa.org/en/latest/user/configuration.html" target="_blank" rel="noopener">configure flake8</a> or <a href="https://pep8.readthedocs.io/en/release-1.7.x/intro.html#configuration" target="_blank" rel="noopener">configure autopep8</a> on<ul>
@@ -75,9 +75,9 @@
 </li>
 </ul>
 </div></article></div></main><footer><div class="paginator"><a href="/2016/10/30/ultisnips/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'yufanlu';
-var disqus_identifier = '2018/08/31/neovim-python/';
+var disqus_identifier = '2018/09/03/neovim-python/';
 var disqus_title = 'Setup Neovim as Python IDE';
-var disqus_url = 'http://yufanlu.net/2018/08/31/neovim-python/';
+var disqus_url = 'http://yufanlu.net/2018/09/03/neovim-python/';
 (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
