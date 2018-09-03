@@ -39,7 +39,7 @@ syntax enable
 
 " colorscheme
 let base16colorspace=256
-colorscheme base16-gruvbox-dark-hard
+try | colorscheme base16-gruvbox-dark-hard | endtry
 set background=dark
 
 " True Color Support if it's avaiable in terminal
